@@ -1,9 +1,18 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 import { useState } from 'react'
 
-const tabs = ['Home', 'Docs', 'Components', 'Effects']
+
+
+const tabsConfig = [{
+  text: 'About',
+  link: '/',
+}, {
+  text: 'Skills',
+  link: '/skills',
+}]
 
 interface TabProps {
   text: string
@@ -34,16 +43,17 @@ const Tab = ({ text, selected, setSelected }: TabProps) => {
 }
 
 const ButtonShapeTabs = () => {
-  const [selected, setSelected] = useState<string>(tabs[0])
+  const [selected, setSelected] = useState<string>(tabsConfig[0].text)
   return (
     <div className="mb-8 flex flex-wrap items-center gap-2">
-      {tabs.map((tab, index) => (
-        <Tab
-          text={tab}
-          selected={selected === tab}
-          setSelected={setSelected}
-          key={tab}
-        />
+      {tabsConfig.map((tab, index) => (
+        <Link key={index} href={tab.link}>
+          <Tab
+            text={tab.text}
+            selected={selected === tab.text}
+            setSelected={setSelected}
+          />
+        </Link>
       ))}
     </div>
   )

@@ -4,7 +4,7 @@ import ButtonShapeTabs from "./tabMenu";
 
 export function Header() {
   return (
-    <div className="flex items-center justify-between w-full flex-col p-8 min-h-screen">
+    <div className="flex items-center justify-between w-full flex-col p-8 pb-0">
       <div className="w-full max-w-3xl">
         <div>
           <div>
@@ -15,7 +15,7 @@ export function Header() {
             <h1 className="font-medium text-gray-900 mt-2 text-xl font-heading">
               Roberto Cabral
             </h1>
-            <p className="text-gray-500">front-end engineer</p>
+            <p className="text-gray-500">Front-end engineer</p>
 
             <div className="flex flex-row justify-between items-center mt-6">
               <div className="flex flex-row gap-x-3">
