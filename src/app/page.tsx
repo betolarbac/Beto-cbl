@@ -2,7 +2,7 @@ import Projects from "@/components/projects";
 
 export default function Home() {
   return (
-    <div className="flex items-center justify-between w-full flex-col ">
+    <div >
       <div className="w-full max-w-3xl">
         <div>
           <p className="text-gray-500">
@@ -53,7 +53,7 @@ export default function Home() {
           </ol>
         </div>
 
-        <div className="mt-16">
+        <div className="my-16">
           <h1 className="font-medium text-gray-900 mb-4 text-lg">Projects</h1>
           <Projects />
         </div>
