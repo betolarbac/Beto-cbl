@@ -4,13 +4,12 @@ import ButtonShapeTabs from "./tabMenu";
 
 export function Header() {
   return (
-    <div className="flex items-center justify-between w-full flex-col p-8 pb-0">
       <div className="w-full max-w-3xl">
         <div>
           <div>
             <Avatar className="w-14 h-14">
-              <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
-              <AvatarFallback>CN</AvatarFallback>
+              <AvatarImage src="https://github.com/betolarbac.png" alt="@betolarbac" />
+              <AvatarFallback>RC</AvatarFallback>
             </Avatar>
             <h1 className="font-medium text-gray-900 mt-2 text-xl font-heading">
               Roberto Cabral
@@ -19,10 +18,10 @@ export function Header() {
 
             <div className="flex flex-row justify-between items-center mt-6">
               <div className="flex flex-row gap-x-3">
-                <a href="">
+                <a href="https://github.com/betolarbac">
                   <GitHubLogoIcon className="w-6 h-6" />
                 </a>
-                <a href="">
+                <a href="https://www.linkedin.com/in/roberto-larbac/">
                   <LinkedInLogoIcon className="w-6 h-6" />
                 </a>
               </div>
@@ -32,6 +31,5 @@ export function Header() {
           <ButtonShapeTabs />
         </div>
       </div>
-    </div>
   );
 }
