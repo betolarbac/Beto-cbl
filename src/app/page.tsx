@@ -15,7 +15,7 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="mt-16">
+        <div className="mt-12">
           <h1 className="font-medium text-gray-900 mb-4 text-lg">Experience</h1>
           <ol className="relative border-s border-gray-200">
             <li className="mb-10 ms-4">
@@ -53,7 +53,7 @@ export default function Home() {
           </ol>
         </div>
 
-        <div className="my-16">
+        <div className="my-12">
           <h1 className="font-medium text-gray-900 mb-4 text-lg">Projects</h1>
           <Projects />
         </div>
