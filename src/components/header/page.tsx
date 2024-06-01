@@ -14,7 +14,7 @@ export function Header() {
             <h1 className="font-medium text-gray-900 mt-2 text-xl font-heading">
               Roberto Cabral
             </h1>
-            <p className="text-gray-500">Front-end engineer</p>
+            <p className="text-gray-500">Front-end engineer and QA Engineer </p>
 
             <div className="flex flex-row justify-between items-center mt-6">
               <div className="flex flex-row gap-x-3">

@@ -22,7 +22,7 @@ export default function Home() {
               <div className="absolute w-3 h-3 bg-gray-500 rounded-full mt-1.5 -start-1.5 border "></div>
               <div className="flex flex-row items-center gap-2">
                 <div className="text-md font-medium text-gray-900">
-                  Front-end Developer
+                  QA Engineer | Front-end Developer
                 </div>
                 <div className="inline-block uppercase text-xs rounded-full px-1 py-0 border border-gray-500 text-gray-500">
                   present
