@@ -2,7 +2,7 @@ import Projects from "@/components/projects";
 
 export default function Home() {
   return (
-    <div >
+    <div  className="flex items-center justify-between w-full flex-col pb-8 px-8">
       <div className="w-full max-w-3xl">
         <div>
           <p className="text-gray-500">

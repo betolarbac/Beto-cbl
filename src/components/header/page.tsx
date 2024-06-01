@@ -4,6 +4,7 @@ import ButtonShapeTabs from "./tabMenu";
 
 export function Header() {
   return (
+    <div className="flex items-center justify-between w-full flex-col px-8 pt-8 ">
       <div className="w-full max-w-3xl">
         <div>
           <div>
@@ -31,5 +32,6 @@ export function Header() {
           <ButtonShapeTabs />
         </div>
       </div>
+    </div>
   );
 }
