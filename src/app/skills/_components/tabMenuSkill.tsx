@@ -24,32 +24,32 @@ const skills = [
     image: logoReact.src,
   },
   {
-    id: 2,
+    id: 3,
     name: "Next.js",
     image: logoNext.src,
   },
   {
-    id: 3,
+    id: 4,
     name: "Typescript",
     image: logoType.src,
   },
   {
-    id: 4,
+    id: 5,
     name: "Node.js",
     image: logoNode.src,
   },
   {
-    id: 5,
+    id: 6,
     name: "Express.js",
     image: logoExpress.src,
   },
   {
-    id: 6,
+    id: 7,
     name: "Cypress",
     image: logoCypress.src,
   },
   {
-    id: 7,
+    id: 8,
     name: "PHP",
     image: logoPhp.src,
   },
