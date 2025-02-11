@@ -1,23 +1,28 @@
-'use client'
+"use client";
 
-import { motion } from 'framer-motion'
-import Link from 'next/link'
-import { useState } from 'react'
+import { motion } from "framer-motion";
+import Link from "next/link";
+import { useState } from "react";
 
-
-
-const tabsConfig = [{
-  text: 'About',
-  link: '/',
-}, {
-  text: 'Skills',
-  link: '/skills',
-}]
+const tabsConfig = [
+  {
+    text: "About",
+    link: "/",
+  },
+  {
+    text: "Projects",
+    link: "/projects",
+  },
+  {
+    text: "Skills",
+    link: "/skills",
+  },
+];
 
 interface TabProps {
-  text: string
-  selected: boolean
-  setSelected: (text: string) => void
+  text: string;
+  selected: boolean;
+  setSelected: (text: string) => void;
 }
 
 const Tab = ({ text, selected, setSelected }: TabProps) => {
@@ -26,24 +31,24 @@ const Tab = ({ text, selected, setSelected }: TabProps) => {
       onClick={() => setSelected(text)}
       className={`${
         selected
-          ? 'text-white'
-          : 'text-gray-500 hover:text-gray-900 dark:hover:text-gray-100'
+          ? "text-white"
+          : "text-gray-500 hover:text-gray-900 dark:hover:text-gray-100"
       } relative rounded-md px-2 py-1 text-sm font-medium transition-colors`}
     >
       <span className="relative z-10">{text}</span>
       {selected && (
         <motion.span
           layoutId="tab"
-          transition={{ type: 'spring', duration: 0.4 }}
+          transition={{ type: "spring", duration: 0.4 }}
           className="absolute inset-0 z-0 rounded-md bg-primary"
         ></motion.span>
       )}
     </button>
-  )
-}
+  );
+};
 
 const ButtonShapeTabs = () => {
-  const [selected, setSelected] = useState<string>(tabsConfig[0].text)
+  const [selected, setSelected] = useState<string>(tabsConfig[0].text);
   return (
     <div className="mb-8 flex flex-wrap items-center gap-2">
       {tabsConfig.map((tab, index) => (
@@ -56,7 +61,7 @@ const ButtonShapeTabs = () => {
         </Link>
       ))}
     </div>
-  )
-}
+  );
+};
 
-export default ButtonShapeTabs
+export default ButtonShapeTabs;
