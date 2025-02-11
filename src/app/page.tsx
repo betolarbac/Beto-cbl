@@ -1,8 +1,6 @@
-import Projects from "@/components/projects";
-
 export default function Home() {
   return (
-    <div  className="flex items-center justify-between w-full flex-col pb-8 px-8">
+    <div className="flex items-center justify-between w-full flex-col pb-8 px-8">
       <div className="w-full max-w-3xl">
         <div>
           <p className="text-gray-500">
@@ -38,7 +36,7 @@ export default function Home() {
                 Front-end Developer
               </div>
               <div className="mb-4 text-sm font-normal text-gray-500">
-                Infinity Tec 
+                Infinity Tec
               </div>
             </li>
             <li className="mb-10 ms-4">
@@ -47,15 +45,10 @@ export default function Home() {
                 Front-end Developer
               </div>
               <div className="mb-4 text-sm font-normal text-gray-500">
-                Amaré Publicidade E Marketing Ltda 
+                Amaré Publicidade E Marketing Ltda
               </div>
             </li>
           </ol>
-        </div>
-
-        <div className="my-12">
-          <h1 className="font-medium text-gray-900 mb-4 text-lg">Projects</h1>
-          <Projects />
         </div>
       </div>
     </div>

@@ -9,7 +9,10 @@ export function Header() {
         <div>
           <div>
             <Avatar className="w-14 h-14">
-              <AvatarImage src="https://github.com/betolarbac.png" alt="@betolarbac" />
+              <AvatarImage
+                src="https://github.com/betolarbac.png"
+                alt="@betolarbac"
+              />
               <AvatarFallback>RC</AvatarFallback>
             </Avatar>
             <h1 className="font-medium text-gray-900 mt-2 text-xl font-heading">
