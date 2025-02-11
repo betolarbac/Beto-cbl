@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import Image from 'next/image'
 import logoReact from "../../../../public/devicon--react.svg";
+import logoJavaScript from "../../../../public/logos--js.svg";
 import logoNext from "../../../../public/icons-nextjs.svg";
 import logoType from "../../../../public/logos--typescript-icon.svg";
 import logoNode from "../../../../public/logos--nodejs-icon-alt.svg";
@@ -14,6 +15,11 @@ import logoPhp from "../../../../public/icons--php.svg";
 const skills = [
   {
     id: 1,
+    name: "JavaScript",
+    image: logoJavaScript.src,
+  },
+  {
+    id: 2,
     name: "React",
     image: logoReact.src,
   },
