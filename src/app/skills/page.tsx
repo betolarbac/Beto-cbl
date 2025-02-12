@@ -1,4 +1,3 @@
-import Projects from "@/components/projects";
 import Skills from "./_components/tabMenuSkill";
 
 export default function Page() {
