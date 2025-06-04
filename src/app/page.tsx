@@ -20,10 +20,21 @@ export default function Home() {
               <div className="absolute w-3 h-3 bg-gray-500 rounded-full mt-1.5 -start-1.5 border "></div>
               <div className="flex flex-row items-center gap-2">
                 <div className="text-md font-medium text-gray-900">
-                  QA Engineer | Front-end Developer
+                  Front-end Developer Pleno
                 </div>
                 <div className="inline-block uppercase text-xs rounded-full px-1 py-0 border border-gray-500 text-gray-500">
                   present
+                </div>
+              </div>
+              <div className="mb-4 text-sm font-normal text-gray-500">
+                People Interactive Brasil
+              </div>
+            </li>
+            <li className="mb-10 ms-4">
+              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border "></div>
+              <div className="flex flex-row items-center gap-2">
+                <div className="text-md font-medium text-gray-900">
+                  QA Engineer | Front-end Developer
                 </div>
               </div>
               <div className="mb-4 text-sm font-normal text-gray-500">
